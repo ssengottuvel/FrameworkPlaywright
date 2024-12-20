@@ -1,0 +1,76 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-loginto-application-successfully;verify-loginto-application-with-azure-user-name-and-password",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "verify loginto application with Azure user name and password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 321882700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user navigates to WS application",
+            "match": {
+              "location": "step-definitions\\SenthilTest.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1971814000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "enter emailaddress password and click login button",
+            "match": {
+              "location": "step-definitions\\SenthilTest.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4045969900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66610200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@INNSERV1",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-loginto-application-successfully",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Verify loginto application successfully",
+    "tags": [
+      {
+        "name": "@INNSERV1",
+        "line": 1
+      }
+    ],
+    "uri": "features\\TC003_SenthilTest.feature"
+  }
+]

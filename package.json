@@ -1,0 +1,26 @@
+{
+  "name": "INNSERV",
+  "version": "1.0.0",
+  "description": "Playwright Cucumber TS framework - The easiest way to learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "Annular",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.0.1",
+    "@playwright/test": "1.35.0",
+    "@types/node": "^22.10.2",
+    "@types/xlsx": "^0.0.35",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.1",
+    "multiple-cucumber-html-reporter": "^3.3.0",
+    "ts-node": "^10.9.1",
+    "winston": "^3.8.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
